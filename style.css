@@ -17,6 +17,8 @@ body {
 }
 
 .counter {
+  width: 100%;
+  padding: 0 25px;
   position: absolute;
   top: 50%;
   left: 50%;
