@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+body {
+  height: 100vh;
+  color: #fff;
+  background: #d5e38b;
+  background: -webkit-radial-gradient(bottom right, #d5e38b, #002ea5);
+  background: -moz-radial-gradient(bottom right, #d5e38b, #002ea5);
+  background: radial-gradient(to top left, #d5e38b, #002ea5);
+}
+
+.counter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter h1 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.counter h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.counter button {
+  color: white;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  transition: 0.1s linear;
+  margin: 5px 0;
+}
+
+#increment-btn {
+  background-color: red;
+}
+
+#increment-btn:hover {
+  background: darkred;
+  transform: scale(1.025);
+}
+
+#save-btn {
+  background-color: green;
+}
+
+#save-btn:hover {
+  background-color: darkgreen;
+  transform: scale(1.025);
+}
+
+#save-el {
+  font-size: 1.5rem;
+  margin-top: 25px;
+  font-weight: bold;
+}
