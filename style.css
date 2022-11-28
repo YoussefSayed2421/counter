@@ -41,31 +41,19 @@ body {
 
 .counter button {
   color: white;
+  background-color: transparent;
   width: 200px;
   height: 50px;
-  border: none;
+  border: 2.5px solid #fff;
   border-radius: 5px;
   font-size: 1.5rem;
-  transition: 0.1s linear;
+  transition: 0.3s linear;
   margin: 5px 0;
+  cursor: pointer;
 }
 
-#increment-btn {
-  background-color: red;
-}
-
-#increment-btn:hover {
-  background: darkred;
-  transform: scale(1.025);
-}
-
-#save-btn {
-  background-color: green;
-}
-
-#save-btn:hover {
-  background-color: darkgreen;
-  transform: scale(1.025);
+.counter button:hover {
+  transform: scale(1.05);
 }
 
 #save-el {
